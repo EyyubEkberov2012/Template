@@ -1,34 +1,4 @@
-body{
-    background-color: #252B42;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.main{
-    width: 100%;
-    min-height: 547px;
-    float: left;
-}
-.header{
-    width: 100%;
-    min-height: 70px;
-}
-.header h1{
-    color: white;
-    margin: 0px;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 250px;
-    margin-right: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.header a{
-    color: white;
-    margin-left: 50px ;
-    text-decoration: none;
-}
-.header a:hover{
-    color: rgb(197, 191, 191);
-}
-
+body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -42,14 +12,13 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color:#252B42;
+  background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
-  
 }
 
 button:hover {
@@ -82,9 +51,7 @@ img.avatar {
 span.psw {
   float: right;
   padding-top: 16px;
-  color: #000;
 }
-
 
 /* The Modal (background) */
 .modal {
@@ -150,12 +117,4 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
-}
-#Color{
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    width: 100%;
-    
 }

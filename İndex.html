@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="header">
+            <h1>BrandName</h1>
+            <a href="İndex.html">Home</a>
+            <a href="Product.html">Product</a>
+            <a href="Princing.html">Princing</a>
+            <a style="margin-right:200px ;" href="Contact.html">Contact</a>
+            <button class="Color" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" id="Color" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img/images.jpeg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Adınız</b></label>
+      <input type="text" placeholder="Adınızı Yazın" name="uname" required>
+
+      <label for="psw"><b>Kodunuz</b></label>
+      <input type="password" placeholder="Kodunuzu Yazın" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember">Məni xatırla
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Şifrənizi <a href="">Unutdunuzmu?</a></span>
+    </div>
+  </form>
+</div>
+<script src="js/script.js"></script>
+        </div>
+    </div>
 </body>
 </html>
