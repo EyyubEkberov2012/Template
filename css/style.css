@@ -1,40 +1,47 @@
-body{
-    background-color: #252B42;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: #252B42;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.main{
-    width: 100%;
-    min-height: 547px;
-    float: left;
+
+.main {
+  width: 100%;
+  min-height: 547px;
+  float: left;
 }
-.header{
-    width: 100%;
-    min-height: 70px;
+
+.header {
+  width: 100%;
+  min-height: 70px;
 }
-.header h1{
-    color: white;
-    margin: 0px;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 250px;
-    margin-right: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.header h1 {
+  color: white;
+  margin: 0px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.header a{
-    color: white;
-    text-decoration: none;
+
+.header a {
+  color: white;
+  text-decoration: none;
 }
-.header a:hover{
-    color: rgb(197, 191, 191);
+
+.header a:hover {
+  color: rgb(197, 191, 191);
 }
-.Margin{
-      margin-left: 50px ;
+
+.Margin {
+  margin-left: 50px;
 }
 
 
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -45,14 +52,14 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color:#252B42;
+  background-color: #252B42;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
-  
+
 }
 
 button:hover {
@@ -91,25 +98,35 @@ span.psw {
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
   padding-top: 60px;
 }
 
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%;
+  /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
@@ -135,34 +152,47 @@ span.psw {
 }
 
 @-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
 }
-  
+
 @keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
 }
 
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {
-     display: block;
-     float: none;
+    display: block;
+    float: none;
   }
+
   .cancelbtn {
-     width: 100%;
+    width: 100%;
   }
 }
-#Color{
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    width: 100%;
-    
+
+#Color {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+
 }
-.Buton{
+
+.Buton {
   display: inline-block;
   background-color: #23A6F0;
   float: right;
@@ -171,23 +201,27 @@ span.psw {
   padding: 10px;
   text-decoration: none;
 }
-.Center{
+
+.Center {
   width: inherit;
   min-height: 500px;
   float: left;
   margin-top: 100px;
   text-align: center;
 }
-.Center h1{
+
+.Center h1 {
   text-align: center;
   color: white;
-  
+
 }
-.Center p{
+
+.Center p {
   text-align: center;
   color: white;
 }
-.Butonn{
+
+.Butonn {
   display: inline-block;
   background-color: #23A6F0;
   text-align: center;
@@ -197,10 +231,36 @@ span.psw {
   text-decoration: none;
   color: white;
 }
-.Tunar{
+
+.Tunar {
   text-decoration: none;
   border: solid 2px white;
   padding: 10px;
   color: white;
 }
 
+.Shapes {
+  width: inherit;
+  min-height: 300px;
+  float: left;
+  padding-top: 10px;
+  padding-bottom:10px ;
+}
+
+.Shape1 {
+  width: 400px;
+  min-height: inherit;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.Shape2 {
+  width: 400px;
+  min-height: inherit;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+}

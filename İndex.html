@@ -1,63 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <div class="main">
-        <div class="header">
-            <h1>BrandName</h1>
-            <a class="Margin" href="İndex.html">Home</a>
-            <a class="Margin" href="Product.html">Product</a>
-            <a class="Margin" href="Princing.html">Pricing</a>
-            <a class="Buton" href="register.html">Join us <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            <button class="Color" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+  <div class="main">
+    <div class="header">
+      <h1>BrandName</h1>
+      <a class="Margin" href="İndex.html">Home</a>
+      <a class="Margin" href="Product.html">Product</a>
+      <a class="Margin" href="Princing.html">Pricing</a>
+      <a class="Buton" href="register.html">Join us <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+      <button class="Color" onclick="document.getElementById('id01').style.display='block'"
+        style="width:auto;">Login</button>
 
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" id="Color" action="/action_page.php" method="post">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img/images.jpeg" alt="Avatar" class="avatar">
+      <div id="id01" class="modal">
+
+        <form class="modal-content animate" id="Color" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+              title="Close Modal">&times;</span>
+            <img src="img/images.jpeg" alt="Avatar" class="avatar">
+          </div>
+
+          <div class="container">
+            <label for="uname"><b>Adınız</b></label>
+            <input type="text" placeholder="Adınızı Yazın" name="uname" required>
+
+            <label for="psw"><b>Kodunuz</b></label>
+            <input type="password" placeholder="Kodunuzu Yazın" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember">Məni xatırla
+            </label>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+              class="cancelbtn">Cancel</button>
+            <span class="psw">Şifrənizi <a href="">Unutdunuzmu?</a></span>
+          </div>
+        </form>
+      </div>
+      <script src="js/script.js"></script>
     </div>
-
-    <div class="container">
-      <label for="uname"><b>Adınız</b></label>
-      <input type="text" placeholder="Adınızı Yazın" name="uname" required>
-
-      <label for="psw"><b>Kodunuz</b></label>
-      <input type="password" placeholder="Kodunuzu Yazın" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember">Məni xatırla
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Şifrənizi <a href="">Unutdunuzmu?</a></span>
-    </div>
-  </form>
-</div>
-<script src="js/script.js"></script>
+    <div class="Center">
+      <h1>COURSES OF
+        EXCELENT
+        QUALITY</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure voluptate ipsa unde sint exercitationem laborum
+        quo impedit quis aspernatur reiciendis! Incidunt ex vitae necessitatibus! Ducimus, cum? Autem asperiores nulla
+        odit!</p>
+      <a class="Butonn" href="register.html">Join us <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+      <a class="Tunar" href="https://www.w3schools.com/">Learn More</a>
+      <div class="Shapes">
+        <div class="Shape1"><i style="color: blueviolet; padding-top: 10px;" class="fa fa-credit-card fa-3x"
+            aria-hidden="true"></i>
+          <h2>Sales Plannig</h2>
+          <hr>
+          <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum possimus perferendis minima ab assumenda
+            aut, incidunt corporis harum, doloremque saepe illum rerum ipsam necessitatibus ad doloribus sapiente, iusto
+            quasi eius.</h5>
         </div>
-        <div class="Center">
-          <h1>COURSES OF
-             EXCELENT 
-            QUALITY</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure voluptate ipsa unde sint exercitationem laborum quo impedit quis aspernatur reiciendis! Incidunt ex vitae necessitatibus! Ducimus, cum? Autem asperiores nulla odit!</p>
-            <a class="Butonn" href="register.html">Join us <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            <a class="Tunar" href="https://www.w3schools.com/">Learn More</a>
-            <div class="Shapes">
-              <div class="Shape1"></div>
-            </div>
-
+        <div class="Shape2"><i style="color: blueviolet; padding-top: 10px;" class="fa fa-meh-o fa-3x"
+            aria-hidden="true"></i>
+          <h2>training Courses</h2>
+          <hr>
+          <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt qui quos adipisci voluptas eaque
+            pariatur debitis, iste vel eum harum eos impedit, assumenda voluptatibus deleniti itaque, vero asperiores a
+            inventore!</h5>
         </div>
+        <div class="Shape2"><i style="color: blueviolet; padding-top: 10px;" class="fa fa-check fa-3x"
+            aria-hidden="true"></i>
+          <h2>training Courses</h2>
+          <hr>
+          <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dicta cupiditate, tempore magni aut
+            quasi, sit quia necessitatibus asperiores, ea enim laborum molestias ducimus aperiam quidem odit dolorem
+            voluptates repellendus.</h5>
+        </div>
+      </div>
+
     </div>
+  </div>
 </body>
+
 </html>
