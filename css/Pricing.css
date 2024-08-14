@@ -1,0 +1,63 @@
+body{
+    background-image: url(../img/h.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+ .Main{
+    width: inherit;
+    min-height: 700px;
+    float: left;
+
+}
+ .Main h1{
+    margin-left: 500px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Main  p{
+    color: white;
+    text-align: center;
+}
+.Center{
+    width: inherit;
+    min-height: 1000px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.Basic{
+    width: 280px;
+    min-height: 1000px;
+    float: left;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+.Title{
+    width: 150px;
+    min-height: 50px;
+    float: left;
+    background-color: #768BE6;
+    border-radius: 20px;
+    color: white;
+}
+.Title2{
+    width: 150px;
+    min-height: 50px;
+    float: left;
+    background-color:#F403F0;
+    border-radius: 20px;color: white;
+}
+.Title3{
+    width: 150px;
+    min-height: 50px;
+    float: left;
+    background-color:#AC46E1;
+    border-radius: 20px;
+    color: white;
+}
+.Bat{
+    background-color: #F403F0;
+}

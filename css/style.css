@@ -22,12 +22,15 @@ body{
 }
 .header a{
     color: white;
-    margin-left: 50px ;
     text-decoration: none;
 }
 .header a:hover{
     color: rgb(197, 191, 191);
 }
+.Margin{
+      margin-left: 50px ;
+}
+
 
 
 /* Full-width input fields */
@@ -159,3 +162,12 @@ span.psw {
     width: 100%;
     
 }
+.Buton{
+  display: inline-block;
+  background-color: #23A6F0;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
