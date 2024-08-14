@@ -169,5 +169,38 @@ span.psw {
   margin-top: 20px;
   margin-right: 10px;
   padding: 10px;
+  text-decoration: none;
+}
+.Center{
+  width: inherit;
+  min-height: 500px;
+  float: left;
+  margin-top: 100px;
+  text-align: center;
+}
+.Center h1{
+  text-align: center;
+  color: white;
+  
+}
+.Center p{
+  text-align: center;
+  color: white;
+}
+.Butonn{
+  display: inline-block;
+  background-color: #23A6F0;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.Tunar{
+  text-decoration: none;
+  border: solid 2px white;
+  padding: 10px;
+  color: white;
 }
 
